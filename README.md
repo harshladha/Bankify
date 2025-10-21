@@ -16,15 +16,26 @@ A clean, command-line interface (CLI) application for basic bank account managem
 
 ---
 
-## 🚀 Getting Started
+## Usage Example
 
-Follow these instructions to get a copy of the project up and running on your local machine.
-
-### Prerequisites
-
-You need to have Python 3 installed on your system. To check if you have it installed, open your terminal or command prompt and run:
+Once the application is running, you will be presented with a menu. Simply enter the number corresponding to the action you want to perform.
 
 ```bash
-python --version
-# or for some systems
-python3 --version
+Welcome to Bankify!
+
+Please choose an option:
+1. Create a new account
+2. Deposit money
+3. Withdraw money
+4. Check balance
+5. View account details
+6. List all accounts
+7. Close an account
+8. Exit
+Enter your choice (1-8): 1
+
+Enter account holder's name: John Doe
+Enter account type (e.g., Savings, Checking): Savings
+Enter initial deposit amount: $: 1000
+
+Account created successfully for John Doe with Account Number: 1234567890
